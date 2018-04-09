@@ -8,5 +8,15 @@ public class Handphone extends Smartphone{
     void throttle(){
         System.out.println("TUT.......TUT.......TUT");
     }
+
+    public String getMerkHandphone() {
+        return MerkHandphone;
+    }
+
+    public void setMerkHandphone(String MerkHandphone) {
+        this.MerkHandphone = MerkHandphone;
+    }
+    
+    
     
 }
