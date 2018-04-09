@@ -1,10 +1,10 @@
 package praktek03;
 
 public class Smartphone {
-    String os;
-    String merk;
-    String warna;
-    double harga;
+    private String os;
+    private String merk;
+    private String warna;
+    private double harga;
     
     void cetakInfo(){
         System.out.println("Os \t: "+os+"\n"+
